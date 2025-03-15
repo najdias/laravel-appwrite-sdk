@@ -2,9 +2,9 @@
 
 namespace NajDias\AppwriteClient;
 
+use NajDias\AppwriteClient\Commands\AppwriteClientCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use NajDias\AppwriteClient\Commands\AppwriteClientCommand;
 
 class AppwriteClientServiceProvider extends PackageServiceProvider
 {

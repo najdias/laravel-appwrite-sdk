@@ -3,8 +3,8 @@
 namespace NajDias\AppwriteClient\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Orchestra\Testbench\TestCase as Orchestra;
 use NajDias\AppwriteClient\AppwriteClientServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {
