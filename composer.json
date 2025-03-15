@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "najdias/laravel-appwrite-sdk",
+    "description": "A Laravel SDK for the appwrite API",
     "keywords": [
-        ":vendor_name",
+        "Nuno Dias",
         "laravel",
-        ":package_slug"
+        "laravel-appwrite-sdk"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/najdias/laravel-appwrite-sdk",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Nuno Dias",
+            "email": "nuno.jaco@gmail.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "NajDias\\AppwriteClient\\": "src/",
+            "NajDias\\AppwriteClient\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/",
+            "NajDias\\AppwriteClient\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -63,10 +63,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "NajDias\\AppwriteClient\\AppwriteClientServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "AppwriteClient": "NajDias\\AppwriteClient\\Facades\\AppwriteClient"
             }
         }
     },

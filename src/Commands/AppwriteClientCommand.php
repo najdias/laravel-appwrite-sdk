@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace NajDias\AppwriteClient\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class AppwriteClientCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-appwrite-sdk';
 
     public $description = 'My command';
 
